@@ -1,0 +1,29 @@
+.text-content{
+
+    background-image: linear-gradient(rgb(249, 219, 224),rgb(249, 201, 209));
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 10px groove rgb(250, 128, 207);
+    margin: auto;
+}
+label{
+    font-weight: bold;
+}
+#nameField, .button, label{
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+.button{
+    background-color:  green;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(112, 212, 112);
+    color: black;
+}

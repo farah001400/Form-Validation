@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dropdown</title>
+</head>
+
+<body>
+    <div class="dropdown-content"
+        style="width: 70%; border: 6px double blue; margin: auto; margin-top: 30px; text-align: center; padding: 90px; background-image: linear-gradient(to right, rgb(233, 233, 249), rgb(155, 155, 254));">
+        <h1>Form Validation: (dropdowns)</h1>
+        <form onsubmit="return checkForSelection('countries')">
+            <label style="font-weight: bold;">Select a Country:</label><br>
+            <select id="countries" style="padding: 10px; border-radius: 5px; font-weight: bold;">
+                <option selected="selected">SELECT A COUNTRY</option>
+                <option value="PAK">Pakistan</option>
+                <option value="IND">India</option>
+                <option value="AFG">Afghanistan</option>
+                <option value="SD">Saudi Arabia</option>
+                <option value="US">America</option>
+                <option value="UK">England</option>
+            </select>
+            <input type="submit" value="submit form" style="padding: 10px; border-radius: 5px; background-color: green; color: white; font-weight: bold;">
+        </form>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

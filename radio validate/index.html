@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio button</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        border: 5px dotted darkmagenta;
+        margin: 30px;
+        padding: 80px;
+        font-weight: bold;
+        background-color: rgb(231, 210, 251);
+        line-height: 1.5rem;
+    }
+    h1{
+        margin-bottom: 20px;
+    }
+    button{
+        padding: 5px;
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+    button:hover{
+        background-color: rgb(2, 107, 2);
+        border: 3px solid rgb(44, 54, 44);
+    }
+</style>
+<body>
+    <div class="content">
+        <h1>Form Validation: (radio button)</h1>
+        <form onSubmit="return validateRadio()">
+            <label>Select a gender</label><br>
+            <input type="radio" name="r1" id="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="r1" id="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="r1" id="others">
+            <label for="others">Others</label><br>
+            <button type="submit">submit form</button>
+        </form>
+
+
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

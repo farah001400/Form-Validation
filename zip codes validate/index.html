@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIP codes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(229, 235, 236);
+
+        }
+
+        .content {
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px 8px grey;
+            background-color: rgb(25, 208, 240);
+            padding: 80px;
+            font-weight: bold;
+            color: rgb(64, 57, 57);
+            margin: 25px;
+        }
+
+        form {
+            margin-top: 15px;
+        }
+
+        form input {
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 5px;
+
+        }
+
+        form button {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(18, 90, 18);
+            color: white;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Form Validation: (ZIP Codes)</h1>
+        <form onsubmit="return validateZip()">
+            <label>Enter ZIP code:</label><br>
+            <input type="text" id="zipCode">
+            <button value="submit">form submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
